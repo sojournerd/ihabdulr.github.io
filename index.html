@@ -6,7 +6,8 @@
        <link href="index.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"><link href="clouds.png" rel="icon" type="image/png">
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script src="lib/typed.js" type="text/javascript"></script>
      </head>
 
 
@@ -14,7 +15,31 @@
          <div class="inner">
            <div class="content">
              <h1>Iman Hakim</h1>
-             <h2>student @ Life</h2>
+             <div id="typed-strings">
+                 <h2>Student.</h2>
+                 <h2>Teacher.</h2>
+                 <h2>Computer Scientist.</h2>
+                 <h2>Software Engineer.</h2>
+                 <h2>Software Developer.</h2>
+                 <h2>Future Entreprenuer.</h2>
+                 <h2>Future Doctor?</h2>
+                 <h2><strong>Black</strong> Scholar.</h2>
+                 <h2>Family man.</h2>
+                 <h2>Handyman.</h2>
+                 <h2>Artist.</h2>
+                 <h2>Engineer.</h2>
+                 <h2>Leader.</h2>
+                 <h2>Comedian?</h2>
+                 <h2>Introverted, Extrovert.</h2>
+                 <h2>Former Amateur Boxer.</h2>
+                 <h2>Lover of <em><strong>deep</strong></em> conversation.</h2>
+                 <h2>Lover of <em>fine</em> cuisine.</h2>
+                 <h2>Avid Reader.</h2>
+                 <h2>Dream <i>chaser</i>.</h2>
+                 <h2>Firm <i>believer</i> in <strong>God</strong>.</h2>
+                 <h2>Friend.</h2>
+             </div>
+             <span id="typed"></span>
 
              <ul>
                 <li><a href="https://www.linkedin.com/in/imanabdul"><i aria-hidden="true" class="fa fa-2x fa-linkedin-square"></i></a></li>
@@ -30,4 +55,19 @@
             </div>
           </div>
         </div>
+
+
+        <script>
+          var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            typeSpeed: 25,
+            backSpeed: 0,
+            fadeOut: true,
+            loop: true,
+            shuffle: false,
+            cursorChar: '_'
+
+          });
+        </script>
+
 </html>
