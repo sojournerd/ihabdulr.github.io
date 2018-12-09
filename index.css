@@ -10,7 +10,9 @@ h1{font-size:40px}h3{font-size:25px;font-family: 'VT323', monospace;}
 .content{display:inline-block;padding:25px}
 
 @media screen and (max-width: 350px) {
-  body {
-    background-color: blue;
+  
+    .outer{
+      height:0%
   }
+  
 }
