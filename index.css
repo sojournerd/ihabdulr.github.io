@@ -9,8 +9,26 @@ h1{font-size:40px}h3{font-size:25px;font-family: 'VT323', monospace;}
 .inner{width:100%;text-align:center}
 .content{display:inline-block;padding:25px}
 
-@media screen and (max-width: 299px) {
-    .glyphicon {
-        font-size: .875em;
+
+@media only screen and (max-device-width: 480px) {
+        div#wrapper {
+            width: 400px;
+        }
+
+        div#header {
+            background-image: url(media-queries-phone.jpg);
+            height: 93px;
+            position: relative;
+        }
+
+        div#header h1 {
+            font-size: 20%;
+        }
+
+        #content {
+            float: none;
+            width: 100%;
+        }
+
+       
     }
-}
