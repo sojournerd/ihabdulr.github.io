@@ -10,5 +10,5 @@ h1{font-size:40px}h3{font-size:25px;font-family: 'VT323', monospace;}
 .content{display:inline-block;padding:25px}
 
 @media screen and (max-width: 320px) and (orientation: portrait){
-    ul{list-style:none;padding-left:1;margin:0}      
+    li{padding:0px}      
 }
